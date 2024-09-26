@@ -1,0 +1,156 @@
+/* src/index.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Link Styles */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"], input[type="button"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dashboard and Component Styles */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .job-posting {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-posting h4 {
+    margin-top: 0;
+  }
+  
+  .applications {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .application {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .application:last-child {
+    border-bottom: none;
+  }
+  
+  /* Admin Portal Styles */
+  .admin-portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .admin-portal h2 {
+    margin-top: 0;
+  }
+  
+  .admin-portal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-portal li {
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    #root {
+      padding: 10px;
+    }
+    form {
+      padding: 10px;
+    }
+    .job-posting {
+      padding: 10px;
+    }
+    .admin-portal {
+      padding: 10px;
+    }
+  }
